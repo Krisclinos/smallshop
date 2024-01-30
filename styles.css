@@ -1,0 +1,140 @@
+body {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#ffffff;
+    font-family: "Monospace", "Markazi Text", "serif";
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+nav{
+    background-color: #26877f;  
+}
+
+nav  ul{
+    text-align: center;
+    list-style: none;
+    border-radius: 90%;
+    
+}
+
+nav  li{
+    display: inline-block;
+    padding: 20px;
+    background-color: #26877f;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+}
+
+nav li:hover{
+    box-shadow: 0 0 20px #ffffcc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffcc;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+    color: #87262e;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: #26877f;
+    font-weight: bold;
+}
+
+h1 + p{
+    text-align: center;
+    color:#87262e;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 ~ p{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+h2 ~ img{
+    max-height: 250px;
+    max-width: auto;
+    border: solid 2px #87262e;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #26877f;
+
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.main_text{
+    background-image: url(https://i.ibb.co/dpG5psJ/bushes-1619283-128022-hansbenn.png);
+    border-radius: 30%;
+    border: solid 3px #87262e;
+    max-width: 70%;
+    margin: auto;
+}
+
+article{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.shadow:hover{
+    box-shadow: 0px 0px 20px #87262e;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap:450px;
+}
+
+footer div {
+    flex: 1;
+    margin: auto;
+    
+}
+
+footer div p{
+    border: solid 3px #87262e;
+    border-radius: 20%;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    color: #26877f;
+    font-size: 1.5em;
+}
+
+footer img {
+    max-height: 150px;
+    max-width: 75px;
+}
